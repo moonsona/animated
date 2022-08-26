@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,700;1,400&family=Rubik:ital,wght@0,700;1,400&display=swap');
+body {
+    margin: 10px;
+    font-family: josefin sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+}
+#hero {
+    height: 100vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/bb.jpg) no-repeat center / cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bb.jpg) no-repeat center / cover;
+    position: relative;
+    text-align: center;
+}
+.container {
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 15px;
+}
+h1, h5 {
+    margin: 0;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+.ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.hero-text-box {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.hero-text-box h5 {
+    font-size: 50px;
+}
+.hero-text-box h1 {
+font-size: 60px;
+font-weight: 400;
+color: #fff;
+}
+.social-icon ul li a {
+    font-size: 30px;
+    background: #fff;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    color: #000;
+
+}
+#hero .ah-headline .ah-words-wrapper::after {
+background-color: #fff;
+height: 70%;
+text-align: center;
+}
+
+@media screen and (max-width: 575.98px) {
+    .hero-text-box h5 {
+        font-size: 40px;
+        }
+        .hero-text-box h1 {
+        font-size: 35px;
+        font-weight: 400;
+        color: #fff;
+     } 
+}
+    
